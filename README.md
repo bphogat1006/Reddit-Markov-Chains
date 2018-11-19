@@ -4,7 +4,7 @@ Markov chains are a very basic form of machine learning. It is a process that us
 
 ## Project Info
 
-### "Chain.py"
+### Chain.py
 This module contains the Chain class which takes one parameter, called 'data.' It implements the Markov process to generate new sentences using the sample text from the 'data' parameter. The Chain class can be used in any Markov chain project you want.
 
 ### RedditMarkov.py
