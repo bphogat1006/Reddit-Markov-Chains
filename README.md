@@ -13,7 +13,7 @@ RedditMarkovTester.py is an example of how to use this module. It asks the user 
 
 It can take up to a minute to run this program, depending on your internet connection.
 
-### Instructions
+## Instructions
 
 ### Chain.py
 For an example of how to use this module, see "ChainTester.py"
