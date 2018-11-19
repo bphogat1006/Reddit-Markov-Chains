@@ -16,7 +16,7 @@ It can take up to a minute to run this program, depending on your internet conne
 ### Instructions
 
 ### Chain.py
-"ChainTester.py" is an example of how to use the Chain.py module.
+For an example of how to use this module, see "ChainTester.py"
 The Chain class constructor takes one parameter, called 'data.' The Markov Chain uses the text you put in for this parameter to generate new sentences.
 To add more data after you create an instance of the Chain class, use the method 'add_words.'
 The method 'gen_message' returns one auto-generated sentence from the given data using the Markov process.
@@ -46,6 +46,10 @@ user_agent:         The name you gave your application
 password:           The password for the Reddit account used to register the script application.
 username:           The username of the Reddit account used to register the script application.
 ```
+
+#### How to use it
+Import the RedditMarkov module. Create a new instance of the RedditMarkov class, which takes in the Subreddit name as a parameter. When typing the Subreddit name, exclude the "r/" from it. Then use the "generate" method to generate new comments based on that subreddit. The generate method takes a genAmount parameter, which is the number of new comments to be generated.
+For an example of how to use this module, see "RedditMarkovTester.py"
 
 ## Author
 
