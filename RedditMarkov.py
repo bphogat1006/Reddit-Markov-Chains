@@ -6,11 +6,11 @@ from praw import *
 # Important!!!
 # Have the Praw module installed and fill in the OAuth2 authorization information below
 
-client_id = ''
-client_secret = ''
-user_agent = ''
-password = ''
-username = ''
+Client_id = ''
+Client_secret = ''
+User_agent = ''
+Password = ''
+Username = ''
 
 
 def toLetters(text):
@@ -36,8 +36,8 @@ class RedditMarkov:
             self.numPosts = numPosts
 
     def generate(self, genAmount):
-        reddit = Reddit(client_id='awE5QBYTsFUixQ', client_secret='91kpcwm4ikY-tiVPgIR3X0MVJk4', password='hiworld1',
-                        user_agent='RedditCommentSimulator', username='ShadowFax106')
+        reddit = Reddit(client_id=Client_id, client_secret=Client_secret, password=Password,
+                        user_agent=User_agent, username=Username)
         reddit.read_only = True # makes the program like 2x faster
 
         sub = reddit.subreddit(self.subreddit)
