@@ -1,4 +1,4 @@
-# Reddit Markov Chains
+# Markov Chains implementation with Reddit API
 
 Markov chains are a very basic form of machine learning. It is a process that uses any given text (eg. An Edgar Allen Poe story) to generate new sentences. The Markov chain finds patterns of what words commonly follows others, and uses that information to construct completely new sentences.
 
